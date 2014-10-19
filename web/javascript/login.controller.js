@@ -2,12 +2,16 @@ angular.module('home.expenseApp', [])
     .controller('loginController', [ '$scope', function ($scope) {
         $scope.avatarUrl = "images/default-avatar.png";
         $scope.login = function () {
-            if ($scope.username === "pragnika") {
-                $scope.avatarUrl = "images/pragnika.jpg";
-            } else if ($scope.username === "bharath") {
-                $scope.avatarUrl = "images/bharath.jpg";
-            } else if ($scope.username === "anusha") {
-                $scope.avatarUrl = "images/anusha.jpg";
+            $scope.avatarUrl = getAvatarUrl($scope.username);
+        }
+
+        var getAvatarUrl = function (username) {
+            if (username === "pragnika") {
+                return "images/pragnika.jpg";
+            } else if (username === "bharath") {
+                return "images/bharath.jpg";
+            } else if (username === "anusha") {
+                return "images/anusha.jpg";
             }
         }
     }]);

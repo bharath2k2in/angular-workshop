@@ -160,7 +160,7 @@
       input {
         border-radius: 10px;
         border: whitesmoke 2px solid;
-        height: 23px;
+        height: 24px;
         position: absolute;
         top: 38%;
         z-index: 100;
@@ -172,6 +172,7 @@
         font-family: sans-serif;
       }
 
+
       .password {
         right: 18%;
       }
@@ -182,7 +183,7 @@
       font-weight: bold;
       text-transform: uppercase;
       background: transparent;
-      border: 0;
+      border: 2px solid;
       cursor: pointer;
       color: white;
       padding: 2px 10px;
