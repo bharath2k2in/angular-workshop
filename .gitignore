@@ -1,0 +1,11 @@
+.idea/
+target
+*.iml
+*.lock
+*.zip
+*.log
+*.ini
+*.classpath
+*.project
+.settings
+.sass-cache

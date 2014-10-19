@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html ng-app="home.expenseApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Home Expenses</title>
+    <script src="javascript/angular.min.js"></script>
+    <script src="javascript/login.controller.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/home.css"/>
+</head>
+<body class="home-main">
+<header>
+    <div id="background" ng-controller="loginController">
+        <div id="ribbonout"><img src="images/ribbonout.png"></div>
+        <div id="5pxline"><img src="images/5pxline.png"></div>
+        <div id="left"><img src="images/left.png"></div>
+        <div id="left_0"><img src="images/left_0.png"></div>
+        <div id="right"><img src="images/right.png"></div>
+        <div id="right_0"><img src="images/right_0.png"></div>
+        <div id="NaviBG"><img src="images/NaviBG.png"></div>
+        <div id="Naviflche"><img src="images/Naviflche.png"></div>
+        <div id="StartseitePortfoli">
+            <span class="menu">Home</span>
+            <span class="menu">Expense</span>
+            <span class="menu">Report</span>
+        </div>
+        <span class="login-info">
+            <input type="text" placeholder="Username" class="username" ng-model="username"/>
+            <input type="password" placeholder="Password" class="password"/>
+        </span>
+        <input type="button" value="Login" class="login" ng-click="login()"/>
+        <div class="avatar"><img src="{{ avatarUrl }}"/></div>
+    </div>
+</header>
+<div>
+    <div class="home-left"></div>
+    <div class="home-content"></div>
+    <div class="home-right"></div>
+</div>
+</body>
+</html>

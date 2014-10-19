@@ -1,0 +1,169 @@
+.home-main {
+  margin: 0 auto;
+  padding: 0;
+  background: url("../images/home.jpg") center top no-repeat; }
+  .home-main .home-left {
+    width: 15%;
+    float: left;
+    margin-top: 20px; }
+  .home-main .home-content {
+    width: 70%;
+    float: left;
+    margin-top: 20px; }
+  .home-main .home-right {
+    width: 15%;
+    float: left;
+    margin-top: 20px; }
+  .home-main #background {
+    left: 0px;
+    top: 0px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 140px;
+    overflow: hidden;
+    z-index: 0; }
+    .home-main #background #BG {
+      left: 0px;
+      top: 0px;
+      position: absolute;
+      width: 1200px;
+      height: 140px;
+      z-index: 1; }
+    .home-main #background #top {
+      left: -350px;
+      top: -105px;
+      position: absolute;
+      width: 1900px;
+      height: 119px;
+      z-index: 2; }
+    .home-main #background #FreeRibbonNavigation {
+      left: 486px;
+      top: 53px;
+      position: absolute;
+      width: 229px;
+      height: 18px;
+      z-index: 3; }
+    .home-main #background #willyeppdeviantartco {
+      left: 525px;
+      top: 267px;
+      position: absolute;
+      width: 150px;
+      height: 12px;
+      z-index: 4; }
+    .home-main #background #ribbonout {
+      left: 55px;
+      top: 25px;
+      position: absolute;
+      width: 1091px;
+      height: 62px;
+      z-index: 5; }
+    .home-main #background #5pxline {
+      left: 47px;
+      top: 183px;
+      position: absolute;
+      width: 1137px;
+      height: 5px;
+      z-index: 6; }
+    .home-main #background #left {
+      left: 102px;
+      top: 11px;
+      position: absolute;
+      width: 49px;
+      height: 90px;
+      z-index: 7; }
+    .home-main #background #left_0 {
+      left: 102px;
+      top: 11px;
+      position: absolute;
+      width: 49px;
+      height: 90px;
+      z-index: 8; }
+    .home-main #background #right {
+      left: 1049px;
+      top: 11px;
+      position: absolute;
+      width: 49px;
+      height: 90px;
+      z-index: 9; }
+    .home-main #background #right_0 {
+      left: 1049px;
+      top: 11px;
+      position: absolute;
+      width: 49px;
+      height: 90px;
+      z-index: 10; }
+    .home-main #background #NaviBG {
+      left: 125px;
+      top: 6px;
+      position: absolute;
+      width: 950px;
+      z-index: 11; }
+    .home-main #background #Naviflche {
+      left: 116px;
+      top: 36px;
+      position: absolute;
+      width: 968px;
+      height: 62px;
+      z-index: 14; }
+    .home-main #background #StartseitePortfoli {
+      left: 157px;
+      top: 59px;
+      position: absolute;
+      width: 887px;
+      height: 19px;
+      z-index: 15; }
+      .home-main #background #StartseitePortfoli .menu {
+        padding: 10px;
+        color: white;
+        font-family: sans-serif;
+        vertical-align: top;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 14px; }
+    .home-main #background .login-info input {
+      border-radius: 10px;
+      border: whitesmoke 2px solid;
+      height: 23px;
+      position: absolute;
+      top: 38%;
+      z-index: 100;
+      width: 130px; }
+    .home-main #background .login-info .username {
+      right: 30%;
+      font-family: sans-serif; }
+    .home-main #background .login-info .password {
+      right: 18%; }
+    .home-main #background .login {
+      font-family: sans-serif;
+      font-weight: bold;
+      text-transform: uppercase;
+      background: transparent;
+      border: 0;
+      cursor: pointer;
+      color: white;
+      padding: 2px 10px;
+      border-radius: 10px;
+      height: 30px;
+      position: absolute;
+      right: 12%;
+      top: 38%;
+      z-index: 100; }
+    .home-main #background .avatar {
+      border-radius: 50%;
+      border: whitesmoke 4px solid;
+      width: 60px;
+      height: 60px;
+      background: transparent;
+      position: absolute;
+      left: 47%;
+      top: 24%;
+      z-index: 100; }
+      .home-main #background .avatar img {
+        border-radius: inherit;
+        width: inherit;
+        height: inherit; }
+
+/*# sourceMappingURL=home.css.map */
