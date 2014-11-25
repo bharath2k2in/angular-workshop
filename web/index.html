@@ -3,8 +3,11 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Home Expenses</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
     <script src="javascript/angular.min.js"></script>
     <script src="javascript/login.controller.js"></script>
+    <script src="javascript/service/avatar.service.js"></script>
     <link rel="stylesheet" type="text/css" href="css/home.css"/>
 </head>
 <body class="home-main">
@@ -18,10 +21,10 @@
         <div id="right_0"><img src="images/right_0.png"></div>
         <div id="NaviBG"><img src="images/NaviBG.png"></div>
         <div id="Naviflche"><img src="images/Naviflche.png"></div>
-        <div id="StartseitePortfoli">
-            <span class="menu">Home</span>
-            <span class="menu">Expense</span>
-            <span class="menu">Report</span>
+        <div id="StartseitePortfoli" class="menu" ng-show="showMenu">
+            <span>Home</span>
+            <span>Expense</span>
+            <span>Report</span>
         </div>
         <span class="login-info">
             <input type="text" placeholder="Username" class="username" ng-model="username"/>

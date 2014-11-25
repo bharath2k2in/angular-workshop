@@ -1,20 +1,24 @@
 .home-main {
   margin: 0 auto;
   padding: 0;
-  background: url("../images/home.jpg") center top no-repeat; }
-  .home-main .home-left {
+  background: url("../images/home.jpg") center top no-repeat;
+  .home-left {
     width: 15%;
     float: left;
-    margin-top: 20px; }
-  .home-main .home-content {
+    margin-top: 20px;
+  }
+  .home-content {
     width: 70%;
     float: left;
-    margin-top: 20px; }
-  .home-main .home-right {
+    margin-top: 20px;
+  }
+  .home-right {
     width: 15%;
     float: left;
-    margin-top: 20px; }
-  .home-main #background {
+    margin-top: 20px;
+  }
+
+  #background {
     left: 0px;
     top: 0px;
     position: relative;
@@ -23,120 +27,161 @@
     width: 1200px;
     height: 140px;
     overflow: hidden;
-    z-index: 0; }
-    .home-main #background #BG {
+    z-index: 0;
+
+    #BG {
       left: 0px;
       top: 0px;
       position: absolute;
       width: 1200px;
       height: 140px;
-      z-index: 1; }
-    .home-main #background #top {
+      z-index: 1;
+    }
+
+    #top {
       left: -350px;
       top: -105px;
       position: absolute;
       width: 1900px;
       height: 119px;
-      z-index: 2; }
-    .home-main #background #FreeRibbonNavigation {
+      z-index: 2;
+    }
+
+    #FreeRibbonNavigation {
       left: 486px;
       top: 53px;
       position: absolute;
       width: 229px;
       height: 18px;
-      z-index: 3; }
-    .home-main #background #willyeppdeviantartco {
+      z-index: 3;
+    }
+
+    #willyeppdeviantartco {
       left: 525px;
       top: 267px;
       position: absolute;
       width: 150px;
       height: 12px;
-      z-index: 4; }
-    .home-main #background #ribbonout {
+      z-index: 4;
+    }
+
+    #ribbonout {
       left: 55px;
       top: 25px;
       position: absolute;
       width: 1091px;
       height: 62px;
-      z-index: 5; }
-    .home-main #background #5pxline {
+      z-index: 5;
+    }
+
+    #5pxline {
       left: 47px;
       top: 183px;
       position: absolute;
       width: 1137px;
       height: 5px;
-      z-index: 6; }
-    .home-main #background #left {
+      z-index: 6;
+    }
+
+    #left {
       left: 102px;
       top: 11px;
       position: absolute;
       width: 49px;
       height: 90px;
-      z-index: 7; }
-    .home-main #background #left_0 {
+      z-index: 7;
+    }
+
+    #left_0 {
       left: 102px;
       top: 11px;
       position: absolute;
       width: 49px;
       height: 90px;
-      z-index: 8; }
-    .home-main #background #right {
+      z-index: 8;
+    }
+
+    #right {
       left: 1049px;
       top: 11px;
       position: absolute;
       width: 49px;
       height: 90px;
-      z-index: 9; }
-    .home-main #background #right_0 {
+      z-index: 9;
+    }
+
+    #right_0 {
       left: 1049px;
       top: 11px;
       position: absolute;
       width: 49px;
       height: 90px;
-      z-index: 10; }
-    .home-main #background #NaviBG {
+      z-index: 10;
+    }
+
+    #NaviBG {
       left: 125px;
       top: 6px;
       position: absolute;
       width: 950px;
-      z-index: 11; }
-    .home-main #background #Naviflche {
+      z-index: 11;
+    }
+
+    #Naviflche {
       left: 116px;
       top: 36px;
       position: absolute;
       width: 968px;
       height: 62px;
-      z-index: 14; }
-    .home-main #background #StartseitePortfoli {
+      z-index: 14;
+    }
+
+    #StartseitePortfoli {
       left: 157px;
       top: 59px;
       position: absolute;
-      width: 887px;
+      width: auto;
       height: 19px;
-      z-index: 15; }
-      .home-main #background #StartseitePortfoli .menu {
+      z-index: 15;
+
+      span {
         padding: 10px;
-        color: white;
+      }
+    }
+
+    .menu {
+      color: white;
+      font-family: sans-serif;
+      vertical-align: top;
+      cursor: pointer;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    .login-info {
+      input {
+        border-radius: 10px;
+        border: whitesmoke 2px solid;
+        height: 24px;
+        position: absolute;
+        top: 38%;
+        z-index: 100;
+        width: 130px;
+      }
+
+      .username {
+        right: 30%;
         font-family: sans-serif;
-        vertical-align: top;
-        cursor: pointer;
-        text-transform: uppercase;
-        font-weight: bold;
-        font-size: 14px; }
-    .home-main #background .login-info input {
-      border-radius: 10px;
-      border: whitesmoke 2px solid;
-      height: 24px;
-      position: absolute;
-      top: 38%;
-      z-index: 100;
-      width: 130px; }
-    .home-main #background .login-info .username {
-      right: 30%;
-      font-family: sans-serif; }
-    .home-main #background .login-info .password {
-      right: 18%; }
-    .home-main #background .login {
+      }
+
+
+      .password {
+        right: 18%;
+      }
+    }
+
+    .login {
       font-family: sans-serif;
       font-weight: bold;
       text-transform: uppercase;
@@ -150,20 +195,25 @@
       position: absolute;
       right: 12%;
       top: 38%;
-      z-index: 100; }
-    .home-main #background .avatar {
+      z-index: 100;
+    }
+
+    .avatar {
       border-radius: 50%;
       border: whitesmoke 4px solid;
       width: 60px;
       height: 60px;
       background: transparent;
       position: absolute;
-      left: 47%;
+      left: 46%;
       top: 24%;
-      z-index: 100; }
-      .home-main #background .avatar img {
+      z-index: 100;
+
+      img {
         border-radius: inherit;
         width: inherit;
-        height: inherit; }
-
-/*# sourceMappingURL=home.css.map */
+        height: inherit;
+      }
+    }
+  }
+}

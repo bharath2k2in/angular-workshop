@@ -9,3 +9,4 @@ target
 *.project
 .settings
 .sass-cache
+web/css

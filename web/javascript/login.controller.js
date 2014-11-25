@@ -1,17 +1,9 @@
 angular.module('home.expenseApp', [])
-    .controller('loginController', [ '$scope', function ($scope) {
+    .controller('loginController', function($scope, avatarService) {
         $scope.avatarUrl = "images/default-avatar.png";
+        $scope.showMenu = false;
         $scope.login = function () {
-            $scope.avatarUrl = getAvatarUrl($scope.username);
+            $scope.avatarUrl = avatarService.getAvatarUrl($scope.username);
+            $scope.showMenu = true;
         }
-
-        var getAvatarUrl = function (username) {
-            if (username === "pragnika") {
-                return "images/pragnika.jpg";
-            } else if (username === "bharath") {
-                return "images/bharath.jpg";
-            } else if (username === "anusha") {
-                return "images/anusha.jpg";
-            }
-        }
-    }]);
+    });
